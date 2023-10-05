@@ -7538,14 +7538,14 @@ header {
 .collapsible-nav {
   display: flex;
   align-items: center;
-  width: 0px;
+  width: 2px;
   overflow: hidden;
-  margin-right: 10px;
-  transition: width 0.6s ease-in-out;
+  margin-right: 6px;
+  transition: width 0.2s ease-in-out;
   flex-direction: row-reverse;
 }
   .collapsible-nav.show {
-    width: 365px; }
+    width: 265px; }
   @media (max-width: 991px) {
     .collapsible-nav {
       position: fixed;
@@ -7554,15 +7554,15 @@ header {
       overflow: auto;
       flex-direction: column-reverse;
       justify-content: flex-end;
-      top: 71px;
+      top: 61px;
       align-items: flex-start;
       background-color: #ffffff;
       margin-right: 0;
       padding-left: 24px;
       padding-right: 24px;
-      width: 200px;
+      width: 150px;
       transform: translateX(100%);
-      transition: transform 0.4s ease-in-out, width 0s;
+      transition: transform 0.2s ease-in-out, width 0s;
       box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08); }
       .collapsible-nav.show {
         transform: translateX(0%);
